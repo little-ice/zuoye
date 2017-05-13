@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.game{
+	position: relative;
+	width: 320px;
+	height: 568px;
+	background: url(../image/start-bg.png);
+	margin: 100px auto 0;
+}
+
+.score,
+.life,
+.game > img {
+	position: absolute;
+	top: -1000px;
+}
+.score {
+	top: 10px;
+}
+.life {
+	width: 60px;
+	right: 0;
+	top: 10px;
+}
+.life img {
+	float: left;
+}
